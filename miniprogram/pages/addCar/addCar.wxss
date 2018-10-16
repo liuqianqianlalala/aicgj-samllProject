@@ -12,9 +12,9 @@
   line-height: 88rpx;
   padding-left: 32rpx;
 }
-.border_line{
+/* .border_line{
   border-bottom: 1px solid #888888;
-}
+} */
 .table_cell_content_title{
   width: 20%;
   float: left;
