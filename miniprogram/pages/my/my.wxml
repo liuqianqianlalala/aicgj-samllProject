@@ -1,0 +1,24 @@
+<!--miniprogram/pages/my/my.wxml-->
+<view class="container">
+  <view class="userinfo_login">
+    <button class="userinfo-nickname" bindtap="onGetOpenid">点击登录</button>
+    <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+    ></button>
+  </view>
+  <view class='flexBox'>
+    <view class='appointment_my commonBox'>
+    <text>我的预约</text>
+  </view>
+  <view class='order_my commonBox'>
+    <text>我的订单</text>
+  </view>
+  <view class='addCar_my commonBox' bindtap='addCar'>
+    <text>添加车辆信息</text>
+  </view>
+  </view>
+  
+</view>

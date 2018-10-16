@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='flexBox'>
+    <view class='mantainceItem'>
+      <view class='title'>
+        <text>泸州蓝安汽车维修</text>
+        <text class='address kilometre'>1.00KM</text>  
+      </view>
+      <text class='address'>四川省泸州市纳溪区蓝安集团内</text>      
+    </view>
+  </view>
+</view>
